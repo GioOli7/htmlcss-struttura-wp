@@ -24,6 +24,11 @@ header {
     height: 100px;
 }
 
+footer {
+    background-color: purple;
+    height: 50px;
+}
+
 /* CLASSI */
 
 .content-top {
@@ -38,7 +43,7 @@ header {
 
 .content-bottom > * {
     float: left;
-    background-color: rgb(117, 186, 255);
+    background-color: rgb(155, 203, 252);
     margin-bottom: 20px;
 }
 
