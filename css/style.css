@@ -7,8 +7,14 @@
 /* UTILITIES */
 
 .container {
-    width: 1170px;
+    width: 80%;
     margin: 20px auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* STILI */
@@ -23,4 +29,32 @@ header {
 .content-top {
     background-color: rgb(255, 255, 126);
     height: 400px;
+    margin-bottom: 20px;
+}
+
+.content-bottom {
+    background-color: dodgerblue;
+}
+
+.content-bottom > * {
+    float: left;
+    background-color: rgb(117, 186, 255);
+    margin-bottom: 20px;
+}
+
+.top-fl {
+    width: 100%;
+    height: 50px;
+}
+
+.left-fl,
+.right-fl {
+    width: 23%;
+    height: 400px;
+}
+
+.center-fl {
+    width: 50%;
+    height: 400px;
+    margin: 0 2%;
 }
